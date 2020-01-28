@@ -1,0 +1,5 @@
+- Las bandas elegidas se obtienen de la mayoria de los equalizadores observados y del siguiente enlace.
+	https://www.nxp.com/docs/en/application-note/AN2110.pdf
+- El espectro se llama banda de octavas o banda a porcentaje constante. La frecuencia central de cada intervalo de frecuencias corresponde aproximadamente al 70% del tamaño del intervalo.
+- Las bandas elegidas son 31, 64, 125, 250, 500, 1K, 2K, 4K, 8K, 16K
+- Se analizarán las frecuencias audibles, es decir las frecuencias entre los 2Hz y los 20KHz, esto nos deja con los rangos en los que se aplicarán los filtros tomando los puntos medios de los intevalos de frecuencia junto con el rango superior del espectro audible. Los rangos serán 2-48, 48-95, 95-188, 188-375, 375-750, 750-1.5K, 1.5K-3K, 3K-6K, 6K-12K, 12K-20K;
